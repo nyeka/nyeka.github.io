@@ -2,8 +2,8 @@
   "name": "myweb",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nyeka.github.io/personalWebsite",
   "dependencies": {
-    "homepage": "https://nyeka.github.io/portofolio",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
