@@ -10,9 +10,9 @@ import "./index.css";
 export default function App() {
   return (
     <div>
-      <Contact />
       <Header />
       <Nav />
+      <Contact />
       <Experience />
       <Portofolio />
       <Footer />
