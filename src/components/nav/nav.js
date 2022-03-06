@@ -5,11 +5,13 @@ import { AiOutlineUser } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
 import { BsFillBookFill } from "react-icons/bs";
 import { BiBookAdd } from "react-icons/bi";
+import { useState } from "react";
 
 export default function Nav() {
+  const [activenav, indexnav] = useState("#");
   return (
-    <div>
-      <a href="#" className="active">
+    <nav>
+      <a href="#" className={activenav === "#" ? "active" : ""}>
         <AiOutlineHome />
       </a>
       <a href="#About">
@@ -24,6 +26,6 @@ export default function Nav() {
       <a href="#Portofolio">
         <BsFillBookFill />
       </a>
-    </div>
+    </nav>
   );
 }
