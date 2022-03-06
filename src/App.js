@@ -6,12 +6,14 @@ import Experience from "./components/experience/experience";
 import Footer from "./components/footer/footer";
 import Portofolio from "./components/portofolio/portofolio";
 import "./index.css";
+import About from "./components/about/about";
 
 export default function App() {
   return (
     <div>
       <Header />
       <Nav />
+      <About/>
       <Contact />
       <Experience />
       <Portofolio />
