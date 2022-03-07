@@ -15,8 +15,8 @@ export default function App() {
       <Header />
       <Nav />
       <About />
-      <Contact />
       <Experience />
+      <Contact />
       <Portofolio />
       <Footer />
     </div>
