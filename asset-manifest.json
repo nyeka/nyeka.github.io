@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.8fffff72.css",
-    "main.js": "/website/static/js/main.9795d83e.js",
-    "static/js/787.fb265414.chunk.js": "/website/static/js/787.fb265414.chunk.js",
-    "static/media/double-bubble-dark.png": "/website/static/media/double-bubble-dark.9b90d46a88fdf8164399.png",
-    "static/media/baal.png": "/website/static/media/baal.6db363a760c441e52d29.png",
-    "index.html": "/website/index.html",
-    "main.8fffff72.css.map": "/website/static/css/main.8fffff72.css.map",
-    "main.9795d83e.js.map": "/website/static/js/main.9795d83e.js.map",
-    "787.fb265414.chunk.js.map": "/website/static/js/787.fb265414.chunk.js.map"
+    "main.css": "/nyeka.github.io/static/css/main.377a6da6.css",
+    "main.js": "/nyeka.github.io/static/js/main.f40694cc.js",
+    "static/js/787.fb265414.chunk.js": "/nyeka.github.io/static/js/787.fb265414.chunk.js",
+    "static/media/double-bubble-dark.png": "/nyeka.github.io/static/media/double-bubble-dark.9b90d46a88fdf8164399.png",
+    "static/media/baal.png": "/nyeka.github.io/static/media/baal.6db363a760c441e52d29.png",
+    "index.html": "/nyeka.github.io/index.html",
+    "main.377a6da6.css.map": "/nyeka.github.io/static/css/main.377a6da6.css.map",
+    "main.f40694cc.js.map": "/nyeka.github.io/static/js/main.f40694cc.js.map",
+    "787.fb265414.chunk.js.map": "/nyeka.github.io/static/js/787.fb265414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fffff72.css",
-    "static/js/main.9795d83e.js"
+    "static/css/main.377a6da6.css",
+    "static/js/main.f40694cc.js"
   ]
 }
