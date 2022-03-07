@@ -12,7 +12,11 @@ export default function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Baal} alt="About image" />
+            <img
+              href="https://link.dana.id/kaget?c=s8tufm5pz&r=b8Gb4F"
+              src={Baal}
+              alt="About image"
+            />
           </div>
         </div>
         <div className="about__content">
