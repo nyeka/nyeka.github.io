@@ -13,7 +13,6 @@ export default function About() {
         <div className="about__me">
           <div className="about__me-image">
             <img
-              href="https://link.dana.id/kaget?c=s8tufm5pz&r=b8Gb4F"
               src={Baal}
               alt="About image"
             />
