@@ -15,7 +15,7 @@ export default function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">intermediated</small>
               </div>
             </article>
             <article className="experience__details">
@@ -29,13 +29,6 @@ export default function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Tailwind</h4>
-                <small className="text-light">Intermediated</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>React Styled Component</h4>
                 <small className="text-light">Intermediated</small>
               </div>
             </article>
@@ -56,7 +49,7 @@ export default function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Flutter</h4>
-                <small className="text-light">Beginer</small>
+                <small className="text-light">intermediated</small>
               </div>
             </article>
           </div>

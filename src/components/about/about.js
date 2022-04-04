@@ -39,7 +39,7 @@ export default function About() {
               <small>I'm still learning</small>
             </article>
           </div>
-          <p>lorem ipdum aweiop knakn irn ani nnapfnew ie nviaone navie av</p>
+          <p>Hi, My Name is Nyoman Eka Swardita, Iam currently learning dart language, especialy on flutter development</p>
           <a href="#contact" className="btn btn-primary">
             {" "}
             Let's Talk
