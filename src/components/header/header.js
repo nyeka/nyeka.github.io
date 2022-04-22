@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import Headersocial from "./headersocial";
-import baal from "./baal.png";
+import Baal from "./baal.png";
 
 const Header = () => {
   return (
@@ -14,9 +14,8 @@ const Header = () => {
         <CTA />
         <Headersocial />
         <div className="me">
-          <img src={baal} alt="me" />
+          <img src={Baal} alt="me" />
         </div>
-
         <a href="# contact" className="scroll__down">
           scroll down
         </a>

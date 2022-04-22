@@ -12,10 +12,7 @@ export default function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img
-              src={Baal}
-              alt="About image"
-            />
+            <img src={Baal} alt="About image" />
           </div>
         </div>
         <div className="about__content">
@@ -38,7 +35,10 @@ export default function About() {
               <small>I'm still learning</small>
             </article>
           </div>
-          <p>Hi, My Name is Nyoman Eka Swardita, Iam currently learning dart language, especialy on flutter development</p>
+          <p>
+            Hi, My Name is Nyoman Eka Swardita, Iam currently learning dart
+            language, especialy on flutter development
+          </p>
           <a href="#contact" className="btn btn-primary">
             {" "}
             Let's Talk
