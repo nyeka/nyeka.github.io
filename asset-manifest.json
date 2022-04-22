@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nyomaneka.me/static/css/main.fe725d02.css",
-    "main.js": "/nyomaneka.me/static/js/main.eaf58c0e.js",
-    "static/js/787.fb265414.chunk.js": "/nyomaneka.me/static/js/787.fb265414.chunk.js",
-    "static/media/double-bubble-dark.png": "/nyomaneka.me/static/media/double-bubble-dark.9b90d46a88fdf8164399.png",
-    "static/media/baal.png": "/nyomaneka.me/static/media/baal.6db363a760c441e52d29.png",
-    "index.html": "/nyomaneka.me/index.html",
-    "main.fe725d02.css.map": "/nyomaneka.me/static/css/main.fe725d02.css.map",
-    "main.eaf58c0e.js.map": "/nyomaneka.me/static/js/main.eaf58c0e.js.map",
-    "787.fb265414.chunk.js.map": "/nyomaneka.me/static/js/787.fb265414.chunk.js.map"
+    "main.css": "/static/css/main.f0e49763.css",
+    "main.js": "/static/js/main.a4414802.js",
+    "static/js/787.fb265414.chunk.js": "/static/js/787.fb265414.chunk.js",
+    "static/media/double-bubble-dark.png": "/static/media/double-bubble-dark.9b90d46a88fdf8164399.png",
+    "static/media/baal.png": "/static/media/baal.6db363a760c441e52d29.png",
+    "index.html": "/index.html",
+    "main.f0e49763.css.map": "/static/css/main.f0e49763.css.map",
+    "main.a4414802.js.map": "/static/js/main.a4414802.js.map",
+    "787.fb265414.chunk.js.map": "/static/js/787.fb265414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe725d02.css",
-    "static/js/main.eaf58c0e.js"
+    "static/css/main.f0e49763.css",
+    "static/js/main.a4414802.js"
   ]
 }
