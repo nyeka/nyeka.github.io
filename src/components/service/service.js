@@ -15,66 +15,15 @@ function Service() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>Pengerjaan tugas uts algorithma pemrograman</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>Tugas Coding C++, python dll</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>Tugas coding kuliah</p>
             </li>
           </ul>
         </article>
@@ -85,66 +34,23 @@ function Service() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>Menerima jasa Pembuatan Web portfolio</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>Tugas Pembuatan web dari kampus</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>Pembuatan Web Statis</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>Pembuatan artikel kuliah berbasis web</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>include code dan 4x revisi</p>
             </li>
           </ul>
         </article>
@@ -155,45 +61,11 @@ function Service() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>Membuat Aplikasi Multiplatform sederhana</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
+              <p>lorem</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
