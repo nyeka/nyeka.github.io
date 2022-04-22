@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nyeka-github.io/static/css/main.419b4e57.css",
-    "main.js": "/nyeka-github.io/static/js/main.66951b85.js",
-    "static/js/787.fb265414.chunk.js": "/nyeka-github.io/static/js/787.fb265414.chunk.js",
-    "static/media/double-bubble-dark.png": "/nyeka-github.io/static/media/double-bubble-dark.9b90d46a88fdf8164399.png",
-    "static/media/baal.png": "/nyeka-github.io/static/media/baal.6db363a760c441e52d29.png",
-    "index.html": "/nyeka-github.io/index.html",
-    "main.419b4e57.css.map": "/nyeka-github.io/static/css/main.419b4e57.css.map",
-    "main.66951b85.js.map": "/nyeka-github.io/static/js/main.66951b85.js.map",
-    "787.fb265414.chunk.js.map": "/nyeka-github.io/static/js/787.fb265414.chunk.js.map"
+    "main.css": "/nyomaneka.me/static/css/main.fe725d02.css",
+    "main.js": "/nyomaneka.me/static/js/main.eaf58c0e.js",
+    "static/js/787.fb265414.chunk.js": "/nyomaneka.me/static/js/787.fb265414.chunk.js",
+    "static/media/double-bubble-dark.png": "/nyomaneka.me/static/media/double-bubble-dark.9b90d46a88fdf8164399.png",
+    "static/media/baal.png": "/nyomaneka.me/static/media/baal.6db363a760c441e52d29.png",
+    "index.html": "/nyomaneka.me/index.html",
+    "main.fe725d02.css.map": "/nyomaneka.me/static/css/main.fe725d02.css.map",
+    "main.eaf58c0e.js.map": "/nyomaneka.me/static/js/main.eaf58c0e.js.map",
+    "787.fb265414.chunk.js.map": "/nyomaneka.me/static/js/787.fb265414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.419b4e57.css",
-    "static/js/main.66951b85.js"
+    "static/css/main.fe725d02.css",
+    "static/js/main.eaf58c0e.js"
   ]
 }
