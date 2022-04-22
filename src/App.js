@@ -7,6 +7,7 @@ import Footer from "./components/footer/footer";
 import Portofolio from "./components/portofolio/portofolio";
 import "./index.css";
 import About from "./components/about/about";
+import Service from "./components/service/service";
 
 export default function App() {
   return (
@@ -16,8 +17,9 @@ export default function App() {
       <Nav />
       <About />
       <Experience />
-      <Contact />
+      <Service />
       <Portofolio />
+      <Contact />
       <Footer />
     </div>
   );
