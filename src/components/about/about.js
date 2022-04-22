@@ -39,7 +39,7 @@ export default function About() {
             Hi, My Name is Nyoman Eka Swardita, Iam currently learning dart
             language, especialy on flutter development
           </p>
-          <a href="wa.me/082289994696" className="btn btn-primary">
+          <a href="https://wa.me/082289994696" className="btn btn-primary">
             {" "}
             Let's Talk
           </a>
