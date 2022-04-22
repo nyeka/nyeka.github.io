@@ -11,19 +11,39 @@ export default function Nav() {
   const [activenav, indexnav] = useState("#");
   return (
     <nav>
-      <a href="#" className={activenav === "#" ? "active" : ""}>
+      <a
+        href="#"
+        onClick={() => indexnav("#")}
+        className={activenav === "#" ? "active" : ""}
+      >
         <AiOutlineHome />
       </a>
-      <a href="#About">
+      <a
+        href="#about"
+        onClick={() => indexnav("#about")}
+        className={activenav === "#about" ? "active" : ""}
+      >
         <AiOutlineUser />
       </a>
-      <a href="#Contact ">
+      <a
+        href="#contact"
+        onClick={() => indexnav("contact")}
+        className={activenav === "#contact" ? "active" : ""}
+      >
         <IoIosContact />
       </a>
-      <a href="#Experience">
+      <a
+        href="#experience"
+        onClick={() => indexnav("#experience")}
+        className={activenav === "#experience" ? "active" : ""}
+      >
         <BiBookAdd />
       </a>
-      <a href="#Portofolio">
+      <a
+        href="#portofolio"
+        onClick={() => indexnav("#portofolio")}
+        className={activenav === "#portofolio" ? "active" : ""}
+      >
         <BsFillBookFill />
       </a>
     </nav>
