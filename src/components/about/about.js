@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Baal from "../header/baal.png";
+import Baal from "../header/keren.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 
@@ -39,7 +39,7 @@ export default function About() {
             Hi, My Name is Nyoman Eka Swardita, Iam currently learning dart
             language, especialy on flutter development
           </p>
-          <a href="https://wa.me/082289994696" className="btn btn-primary">
+          <a href="https://wa.me/+6282289994696" className="btn btn-primary">
             {" "}
             Let's Talk
           </a>
