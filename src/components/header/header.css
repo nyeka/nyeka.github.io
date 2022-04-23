@@ -59,11 +59,12 @@ header {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   header {
     height: 100vh;
   }
-  .header_socials, .scroll__down{
-      display: none;
+  .header_socials,
+  .scroll__down {
+    display: none;
   }
 }
