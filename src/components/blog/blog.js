@@ -9,10 +9,10 @@ function Blok() {
       <div className="container container__blog">
         <div class="col">
           <div class="col-text">
-            <h3>Rekayasa Perangkat Lunak</h3>
+            <h3>Jurnal Kuliah</h3>
             <p>
-              Mempelajari seseorang engineer memampaatkan perangkat lunak dengan
-              baik
+              Mempelajari cara seorang engineer memanfaatkan perangkat lunak
+              dengan baik
               <br />
             </p>
             <a href="https://nyomaneka.me/myBlog/">Lihat Selengkapnya</a>
