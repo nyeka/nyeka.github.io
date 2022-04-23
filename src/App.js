@@ -8,6 +8,7 @@ import Portofolio from "./components/portofolio/portofolio";
 import "./index.css";
 import About from "./components/about/about";
 import Service from "./components/service/service";
+import Blok from "./components/blog/blog";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Experience />
       <Service />
       <Portofolio />
+      <Blok />
       <Contact />
       <Footer />
     </div>
