@@ -1,5 +1,6 @@
 import React from "react";
 import cv from "../assets/cv.pdf";
+import "./header.css";
 
 export default function CTA() {
   return (

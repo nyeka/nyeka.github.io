@@ -3,6 +3,7 @@ import "./header.css";
 import CTA from "./CTA";
 import Headersocial from "./headersocial";
 import ME from "../image/keren.png";
+import Styled from "styled-components";
 
 const Header = () => {
   return (
