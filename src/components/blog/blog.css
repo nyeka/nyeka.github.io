@@ -21,22 +21,27 @@
   color: var(--color-primary);
 }
 
-.col-text {
-  margin-left: auto;
+.col {
+  /* margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 80%; */
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
-.col-text h2 {
+.blog h2 {
   margin-bottom: 15px;
   font-size: 36px;
   line-height: 40px;
 }
-.col-text h3 {
+.blog h3 {
   margin-bottom: 5px;
   font-size: 24px;
   color: var(--color-white);
 }
-.col-text p {
+.blog p {
   font-size: 18px;
   color: var(--color-white);
   margin-bottom: 2rem;
@@ -53,6 +58,9 @@
   }
   .experience__content {
     padding: 1rem;
+  }
+  .blog {
+    height: auto;
   }
 }
 

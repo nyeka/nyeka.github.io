@@ -30,7 +30,7 @@ export default function Contact() {
             <MdOutlineEmail />
             <h4>Email</h4>
             <h5>nyeka2101@gmail.com</h5>
-            <a href="mailto:nyeka2101@gmail.com" target="_blank">
+            <a href="mailto:nyeka2101@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -46,7 +46,7 @@ export default function Contact() {
             <h5>+6282289994696</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+6282289994696"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Send a message
             </a>

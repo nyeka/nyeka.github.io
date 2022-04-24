@@ -1,17 +1,17 @@
 import React from "react";
 import "./about.css";
-import Baal from "../header/keren.png";
+import me from "../image/keren.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 
 export default function About() {
   return (
-    <section id="about ">
+    <section id="about">
       <h5> Get To Know </h5> <h2> About Me </h2>{" "}
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Baal} alt="About image" />
+            <img src={me} alt="About_image" />
           </div>{" "}
         </div>{" "}
         <div className="about__content">
@@ -33,7 +33,7 @@ export default function About() {
             Hi, My Name is Nyoman Eka Swardita, Iam currently learning dart
             language, especialy on flutter development{" "}
           </p>{" "}
-          <a href="https://wa.me/+6282289994696" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary">
             {" "}
             Let 's Talk{" "}
           </a>{" "}

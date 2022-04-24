@@ -50,7 +50,7 @@ function Service() {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>include code dan 4x revisi</p>
+              <p>include code dan 1x revisi</p>
             </li>
           </ul>
         </article>

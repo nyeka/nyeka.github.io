@@ -31,13 +31,13 @@ export default function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://github.com/nyeka">
+        <a href="https://github.com/nyeka" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/nyoman-eka-swardita-090024222/">
+        <a href="https://www.linkedin.com/in/nyoman-eka-swardita-090024222/" target="_blank" rel="noreferrer">
           <BsLinkedin />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://www.instagram.com/_nyomaneka/" target="_blank" rel="noreferrer">
           <FiInstagram />
         </a>
       </div>
