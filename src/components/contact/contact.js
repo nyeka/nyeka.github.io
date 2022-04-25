@@ -9,22 +9,23 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
+        "Oj47iMv6ywYMjFxYd",
         "service_0a9jvrb",
         "template_clm139w",
-        form.current,
-        "Oj47iMv6ywYMjFxYd"
+        form.current
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+      .then(() => {
+        e.target.reset();
+        e.form.reset();
+        form.reset();
+        form.target.reset();
+      })
+      .finally(() => {
+        e.target.reset();
+        e.form.reset();
+      });
     e.target.reset();
     e.form.reset();
     form.reset();
