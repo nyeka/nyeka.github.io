@@ -12,8 +12,20 @@ import Blok from "./components/blog/blog";
 
 export default function App() {
   return (
-    <div>
-      <title>Personal website</title>
+    <div
+      onContextMenu={() => {
+        return false;
+      }}
+      onCopy={() => {
+        return false;
+      }}
+      onPaste={() => {
+        return false;
+      }}
+      onCut={() => {
+        return false;
+      }}
+    >
       <Header />
       <Nav />
       <About />

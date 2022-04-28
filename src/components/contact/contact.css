@@ -29,6 +29,11 @@
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
+.btn-kirim {
+  border-radius: 9px;
+  background: linear-gradient(145deg, --color-primary-variant, #086089);
+  box-shadow: 17px 17px 34px transparent, -17px -17px 34px --color-bg-variant;
+}
 
 .contact__option a {
   margin-top: 0.7rem;

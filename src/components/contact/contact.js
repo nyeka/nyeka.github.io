@@ -37,7 +37,7 @@ export default function Contact() {
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
-        <div className="contact__options">
+        <div className="contact__options contact__card">
           <article className="contact__option">
             <MdOutlineEmail />
             <h4>Email</h4>
@@ -61,7 +61,7 @@ export default function Contact() {
             <h4>Whatsapp</h4>
             <h5>+6282289994696</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=+6282289994696"
+              href="Https://api.whatsapp.com/send?phone=+6282289994696"
               target="_blank"
               rel="noreferrer"
             >
