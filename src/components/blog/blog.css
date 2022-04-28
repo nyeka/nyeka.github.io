@@ -22,9 +22,6 @@
 }
 
 .col {
-  /* margin-left: auto;
-  margin-right: auto;
-  width: 80%; */
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 2rem;

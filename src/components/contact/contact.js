@@ -1,35 +1,45 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./contact.css";
 import { BsWhatsapp } from "react-icons/bs";
+import { useForm } from "react-hook-form";
 import { MdOutlineEmail } from "react-icons/md";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
   const form = useRef();
+  const { reset } = useForm();
+  const [loading, setloading] = useState("d-none");
+  const [kirim, setkirim] = useState("");
+  const [alertku, setalert] = useState("d-none");
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_0a9jvrb",
-        "template_clm139w",
+        "service_dcdqixe",
+        "template_vj4mjr5",
         form.current,
-        "Oj47iMv6ywYMjFxYd"
+        "jEw0Tr8I62ogPZdPa"
       )
-      .then(() => {
-        e.target.reset();
-        e.form.reset();
-        form.reset();
-        form.target.reset();
-      })
-      .finally(() => {
-        e.target.reset();
-        e.form.reset();
+      .then((result) => {
+        if (result.status === 200) {
+          setloading("d-none");
+          setkirim("");
+          e.form.preventDefault();
+        } else if (result.status === 300) {
+          setloading("");
+          setkirim("d-none");
+        }
       });
-    e.target.reset();
-    e.form.reset();
-    form.reset();
+    e.reset({ form });
   };
+
+  function load() {
+    setkirim("d-none");
+    setloading(" ");
+    setalert("");
+    reset({});
+  }
 
   return (
     <section id="contact">
@@ -69,7 +79,7 @@ export default function Contact() {
             </a>
           </article>
         </div>
-        <form ref={form} onClick={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
@@ -83,8 +93,25 @@ export default function Contact() {
             placeholder="Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary btn-kirim">
+          <button
+            type="submit"
+            className={`btn btn-primary btn-kirim ${kirim}`}
+            onClick={load}
+          >
             Send Message
+          </button>
+          <button
+            onClick={load}
+            className={`btn btn-primary btn-loading ${loading}`}
+            type="button"
+            disabled
+          >
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            Loading...
           </button>
         </form>
       </div>

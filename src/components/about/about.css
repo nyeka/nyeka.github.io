@@ -52,16 +52,16 @@
 
 .about__icon {
   color: var(--color-primary);
-  font-size: 1.4rem;
+  font-size: 1.4rem !important;
   margin-bottom: 1rem;
 }
 
 .about__card h5 {
-  font-size: 0.95rem;
+  font-size: 0.95rem !important;
 }
 
 .about__card small {
-  font-size: 0.7rem;
+  font-size: 0.7rem !important;
   color: var(--color-light);
 }
 

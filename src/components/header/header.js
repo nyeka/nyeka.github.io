@@ -3,9 +3,8 @@ import "./header.css";
 import CTA from "./CTA";
 import Headersocial from "./headersocial";
 import ME from "../image/keren.png";
-import Styled from "styled-components";
 
-const Header = () => {
+export default function Header() {
   return (
     <header>
       <div className="container header_container">
@@ -23,5 +22,4 @@ const Header = () => {
       </div>
     </header>
   );
-};
-export default Header;
+}

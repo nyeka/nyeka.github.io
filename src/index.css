@@ -46,12 +46,20 @@ body {
   margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
 h5 {
   font-weight: 500;
+  font-size: 14px;
+}
+h3 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 15px;
 }
 
 h1 {
@@ -66,7 +74,7 @@ section > h2,
 section > h5 {
   text-align: center;
   color: var(--color-light);
-  margin: 0;
+  margin-bottom: 0.65rem;
 }
 
 section > h2 {
@@ -75,7 +83,7 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--color-light);
+  color: var(--color-light) !important;
 }
 
 a {
@@ -129,7 +137,7 @@ img {
 
 @media screen and (max-width: 600px) {
   .container {
-    width: var(--container-width-md);
+    width: var(--container-width-sm) !important;
   }
   section {
     margin-top: 6rem;
