@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import "./contact.css";
 import { BsWhatsapp } from "react-icons/bs";
-import { useForm } from "react-hook-form";
 import { MdOutlineEmail } from "react-icons/md";
 import emailjs from "emailjs-com";
+import validator from "validator";
 
 export default function Contact() {
   const form = useRef();
@@ -13,20 +13,31 @@ export default function Contact() {
   const [email, setemail] = useState("");
   const [message, setmessage] = useState("");
   const [mylert, setlert] = useState("d-none");
+  const [emailError, setEmailError] = useState("");
+  const [emailEr, setEmailEr] = useState(false);
+
+  const validateEmail = (e) => {
+    var email = e.target.value;
+    setemail(email);
+
+    if (validator.isEmail(email)) {
+      setEmailError("");
+      setEmailEr(true);
+    } else if (email === "") {
+      setEmailError("");
+    } else {
+      setEmailError("Enter valid Email!");
+      setEmailEr(false);
+    }
+  };
 
   function handleChange(e) {
     setValue(e.target.value);
   }
 
-  function emailhandleChange(e) {
-    setemail(e.target.value);
-  }
-
   function messagehandleChange(e) {
     setmessage(e.target.value);
   }
-
-  useForm({ mode: "onChange" });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -45,6 +56,7 @@ export default function Contact() {
           setemail("");
           setmessage("");
           setlert("");
+          setEmailError("");
         } else if (result.status === 400) {
           setloading("");
           setkirim("d-none");
@@ -114,8 +126,16 @@ export default function Contact() {
             placeholder="Your Email"
             required
             value={email}
-            onChange={emailhandleChange}
+            onChange={(e) => validateEmail(e)}
           />
+          <span
+            style={{
+              fontWeight: "bold",
+              color: "red",
+            }}
+          >
+            {emailError}
+          </span>
           <textarea
             name="message"
             rows="7"
@@ -141,7 +161,7 @@ export default function Contact() {
             type="submit"
             className={`btn btn-primary btn-kirim ${kirim} submitform`}
             onClick={load}
-            disabled={!value || !email || !message}
+            disabled={!value || !email || !message || !emailEr}
           >
             Send Message
           </button>
