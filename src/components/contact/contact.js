@@ -128,7 +128,7 @@ export default function Contact() {
           </button>
           <button
             onClick={load}
-            className={` ${loading}`}
+            className={`btn btn-primary btn-loading ${loading}`}
             type="button"
             disabled
           >
