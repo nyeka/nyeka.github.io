@@ -7,10 +7,25 @@ import emailjs from "emailjs-com";
 
 export default function Contact() {
   const form = useRef();
-  const { reset } = useForm();
   const [loading, setloading] = useState("d-none");
   const [kirim, setkirim] = useState("");
-  const [alertku, setalert] = useState("d-none");
+  const [value, setValue] = useState("");
+  const [email, setemail] = useState("");
+  const [message, setmessage] = useState("");
+
+  function handleChange(e) {
+    setValue(e.target.value);
+  }
+
+  function emailhandleChange(e) {
+    setemail(e.target.value);
+  }
+
+  function messagehandleChange(e) {
+    setmessage(e.target.value);
+  }
+
+  useForm({ mode: "onChange" });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -25,20 +40,20 @@ export default function Contact() {
         if (result.status === 200) {
           setloading("d-none");
           setkirim("");
-          e.form.preventDefault();
-        } else if (result.status === 300) {
+          setValue("");
+          setemail("");
+          setmessage("");
+          console.log(result.text);
+        } else if (result.status === 400) {
           setloading("");
           setkirim("d-none");
         }
       });
-    e.reset({ form });
   };
 
   function load() {
     setkirim("d-none");
     setloading(" ");
-    setalert("");
-    reset({});
   }
 
   return (
@@ -84,19 +99,31 @@ export default function Contact() {
             type="text"
             name="name"
             placeholder="your full name"
+            value={value}
+            onChange={handleChange}
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            value={email}
+            onChange={emailhandleChange}
+          />
           <textarea
             name="message"
             rows="7"
             placeholder="Your Message"
+            value={message}
+            onChange={messagehandleChange}
             required
           ></textarea>
           <button
             type="submit"
-            className={`btn btn-primary btn-kirim ${kirim}`}
+            className={`btn btn-primary btn-kirim ${kirim} submitform`}
             onClick={load}
+            disabled={!value || !email || !message}
           >
             Send Message
           </button>
