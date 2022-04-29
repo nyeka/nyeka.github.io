@@ -43,7 +43,6 @@ export default function Contact() {
           setValue("");
           setemail("");
           setmessage("");
-          console.log(result.text);
         } else if (result.status === 400) {
           setloading("");
           setkirim("d-none");
@@ -129,7 +128,7 @@ export default function Contact() {
           </button>
           <button
             onClick={load}
-            className={`btn btn-primary btn-loading ${loading}`}
+            className={` ${loading}`}
             type="button"
             disabled
           >

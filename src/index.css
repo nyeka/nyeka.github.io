@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -137,7 +137,7 @@ img {
 
 @media screen and (max-width: 600px) {
   .container {
-    width: var(--container-width-sm) !important;
+    width: var(--container-width-md);
   }
   section {
     margin-top: 6rem;
