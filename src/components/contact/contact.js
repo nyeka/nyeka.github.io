@@ -12,6 +12,7 @@ export default function Contact() {
   const [value, setValue] = useState("");
   const [email, setemail] = useState("");
   const [message, setmessage] = useState("");
+  const [mylert, setlert] = useState("d-none");
 
   function handleChange(e) {
     setValue(e.target.value);
@@ -43,12 +44,17 @@ export default function Contact() {
           setValue("");
           setemail("");
           setmessage("");
+          setlert("");
         } else if (result.status === 400) {
           setloading("");
           setkirim("d-none");
         }
       });
   };
+
+  function lert() {
+    setlert("d-none");
+  }
 
   function load() {
     setkirim("d-none");
@@ -118,6 +124,19 @@ export default function Contact() {
             onChange={messagehandleChange}
             required
           ></textarea>
+          <div
+            className={`alert alert-success alert-dismissible fade show ${mylert}`}
+            role="alert"
+          >
+            <strong>Terimakasih!</strong> Pesan anda telah dikirim.
+            <button
+              onClick={lert}
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="alert"
+              aria-label="Close"
+            ></button>
+          </div>
           <button
             type="submit"
             className={`btn btn-primary btn-kirim ${kirim} submitform`}
