@@ -63,31 +63,6 @@ function Service() {
               <BiCheck className="service__list-icon" />
               <p>Membuat Aplikasi Multiplatform sederhana</p>
             </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                lorem ifiuperhr bosdafeu bwpb urpwebru bruiewbru wb iuebwrui
-                bbwer
-              </p>
-            </li>
           </ul>
         </article>
       </div>
