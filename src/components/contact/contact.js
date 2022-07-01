@@ -23,7 +23,7 @@ export default function Contact() {
     if (validator.isEmail(email)) {
       setEmailError("");
       setEmailEr(true);
-    } else if (email === "") {
+    } else if (!email) {
       setEmailError("");
     } else {
       setEmailError("Enter valid Email!");
