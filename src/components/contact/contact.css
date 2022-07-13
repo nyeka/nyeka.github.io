@@ -15,6 +15,10 @@
   display: none;
 }
 
+.d-none {
+  display: none;
+}
+
 .contact__option {
   background: var(--color-bg-variant);
   padding: 1.2rem;
@@ -34,7 +38,7 @@
   margin-bottom: 0.5rem;
 }
 .btn-kirim {
-  border-radius: 9px;
+  border-radius: 12px;
   background: linear-gradient(145deg, --color-primary-variant, #086089);
   box-shadow: 17px 17px 34px transparent, -17px -17px 34px --color-bg-variant;
 }
@@ -45,35 +49,25 @@
   font-size: 0.8rem;
 }
 
+.alert {
+  background-color: green;
+  height: max-content;
+  padding: 1vh;
+  border-radius: 12px;
+  width: fit-content;
+}
+
 form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
-.spin {
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  border-top-color: #fff;
-  animation: spin 1s ease-in-out infinite;
-  -webkit-animation: spin 1s ease-in-out infinite;
-}
 
-@keyframes spin {
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes spin {
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-.d-none {
-  display: none;
+button:disabled,
+button[disabled] {
+  border: 2px solid #110a7a;
+  background-color: #110a7a;
+  color: #666666;
 }
 
 input,

@@ -144,18 +144,17 @@ export default function Contact() {
             onChange={messagehandleChange}
             required
           ></textarea>
-          <div
-            className={`alert alert-success alert-dismissible fade show ${mylert}`}
-            role="alert"
-          >
+          <div className={`alert ${mylert}`} role="alert">
             <strong>Terimakasih!</strong> Pesan anda telah dikirim.
-            <button
+            <span
               onClick={lert}
               type="button"
               class="btn-close"
               data-bs-dismiss="alert"
               aria-label="Close"
-            ></button>
+            >
+              x
+            </span>
           </div>
           <button
             type="submit"

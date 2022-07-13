@@ -8,7 +8,7 @@
   box-sizing: border-box;
   list-style: none;
   color: white;
-  text-decoration: none !important;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -83,7 +83,7 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--color-light) !important;
+  color: var(--color-light);
 }
 
 a {
