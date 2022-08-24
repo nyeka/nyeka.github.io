@@ -4,6 +4,6 @@ export const datablog = [
     title: "Jurnal Perkuliahan",
     description:
       "Mempelajari cara seorang engineer memanfaatkan perangkat lunak dengan baik",
-    link: "https://nyomaneka.me/myBlog",
+    link: "https://nyomaneka.netlify.app/",
   },
 ];

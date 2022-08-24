@@ -27,7 +27,7 @@ export default function Nav() {
       </a>
       <a
         href="#contact"
-        onClick={() => indexnav("contact")}
+        onClick={() => indexnav("#contact")}
         className={activenav === "#contact" ? "active" : ""}
       >
         <IoIosContact />

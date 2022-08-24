@@ -8,7 +8,7 @@ function Blok() {
       <h5>My Blog</h5>
       <h2>Daily Blog</h2>
       <div className="container container__blog">
-        {datablog.map(({ id, title, description, link }) => {
+        {datablog.map(({title, description, link }) => {
           return (
             <div class="blog">
               <h3>{title}</h3>

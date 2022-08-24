@@ -24,21 +24,20 @@ export const dataku = [
     image: img4,
     title: "restaurant detail with flutter",
     github: "https://github.com/nyeka/myBlog",
-    demo: "https://nyomaneka.me/myBlog",
+    demo: "https://nyomaneka.netlify.app/",
   },
   {
     id: 3,
     image: img3,
     title: "My Daily Blog",
     github: "https://github.com/nyeka/myBlog",
-    demo: "https://nyomaneka.me/myBlog",
+    demo: "https://nyomaneka.netlify.app/",
   },
   {
     id: 3,
     image: img5,
     title: "Blog jurnal perkuliahan",
     github: "https://github.com/nyeka/myBlog",
-    demo: "https://nyomaneka.me/myBlog",
+    demo: "https://nyomaneka.netlify.app/",
   },
-
 ];
